@@ -1,4 +1,5 @@
 ﻿using MVC_Blog.Entities;
+using MVC_Blog.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,6 @@ namespace MVC_Blog.Main.Interfaces
 {
     public interface IAllNews
     {
-         IEnumerable<News> News { get; }
+         IEnumerable<NewsViewModel> News { get; }
     }
 }

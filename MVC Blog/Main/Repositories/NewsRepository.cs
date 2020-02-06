@@ -1,5 +1,6 @@
 ﻿using MVC_Blog.Entities;
 using MVC_Blog.Main.Interfaces;
+using MVC_Blog.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,6 @@ namespace MVC_Blog.Main.Repositories
             this.dbContent = dbContent;
         }
 
-        public IEnumerable<News> News => dbContent.News;
+        public IEnumerable<NewsViewModel> News => dbContent.News;
     }
 }

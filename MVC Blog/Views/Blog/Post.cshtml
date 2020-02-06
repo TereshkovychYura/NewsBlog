@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Post";
+}
+
+<div class="container post-block">
+    <article>
+        <h2 class="text-center">@Model.title</h2>
+        <img class="post-image" src="@Model.img" />
+        <p>@Model.fulltext</p>
+        <footer>
+            Author - @Model.author
+        </footer>
+
+    </article>
+</div>

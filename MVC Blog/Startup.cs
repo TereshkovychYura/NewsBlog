@@ -53,11 +53,7 @@ namespace MVC_Blog
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            using (var scope = app.ApplicationServices.CreateScope())
-            {
-                DBContent content = scope.ServiceProvider.GetRequiredService<DBContent>();
-                DBObjects.Initial(content);
-            }
+           
 
             app.UseStaticFiles();
             app.UseCookiePolicy();
@@ -68,6 +64,12 @@ namespace MVC_Blog
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            using (var scope = app.ApplicationServices.CreateScope())
+            {
+                DBContent content = scope.ServiceProvider.GetRequiredService<DBContent>();
+                DBObjects.Initial(content);
+            }
         }
     }
 }

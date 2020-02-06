@@ -1,10 +1,19 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+.blog-image {
+    height: 200px;
+    margin: 5px;
+}
+
+.blog-section{
+    display : inline-block;
+}
+
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
 /* Sticky footer styles
@@ -53,4 +62,57 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
+}
+
+footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+    .row-offcanvas {
+        position: relative;
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+        background: #ecf0f1;
+    }
+
+    .row-offcanvas-left
+    .sidebar-offcanvas {
+        left: -40%;
+    }
+
+    .row-offcanvas-left.active {
+        left: 40%;
+    }
+
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+        width: 40%;
+        margin-left: 12px;
+    }
+}
+
+.post-block {
+    display: flex;
+    align-content:center;
+    
+}
+.post-image {
+    height: 500px;
+    margin: 5px;
+}
+
+#sidebar {
+    padding: 15px;
+    margin-top: 10px;
+}
+.btn-default{
+    border: 2px solid black;
 }

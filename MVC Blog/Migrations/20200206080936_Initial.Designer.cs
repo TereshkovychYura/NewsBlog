@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVC_Blog.Migrations
 {
     [DbContext(typeof(DBContent))]
-    [Migration("20200205094553_Initial")]
+    [Migration("20200206080936_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,7 +20,7 @@ namespace MVC_Blog.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("MVC_Blog.Entities.News", b =>
+            modelBuilder.Entity("MVC_Blog.Models.NewsViewModel", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -38,7 +38,7 @@ namespace MVC_Blog.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("tblNews");
+                    b.ToTable("News");
                 });
 #pragma warning restore 612, 618
         }

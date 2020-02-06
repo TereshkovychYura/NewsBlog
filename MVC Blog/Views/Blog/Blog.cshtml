@@ -1,14 +1,18 @@
-﻿<h1>Blog</h1>
+﻿<h1 class="text-center">Blog</h1>
+@model List<NewsViewModel>
+
 @{
-    foreach (var item in Model.allNews)
+    foreach (var item in Model)
     {
-        <div class="col-6 col-sm-6 col-lg-4">
-            <h2>Heading</h2>
-            <p>
-                Bootstrap is a front-end framework that uses CSS and JavaScript to facilitate responsive Web design. Bootply is a playground for Bootstrap that enables developers and designers to test, prototype and create mockups using Bootstrap
-                friendly HTML, CSS and Javascript.
-            </p>
-            <p><a class="btn btn-default" href="#">View details »</a></p>
+        <div class="col-md-5 blog-section">
+            <article>
+                <h5>@item.title</h5>
+                <img class="blog-image" src="@item.img" />
+                <p>
+                    @item.prew
+                </p>
+                <p><a class="btn btn-default" asp-controller="Blog" asp-action="Post" asp-route-id="@item.id">View details »</a></p>
+            </article>
         </div>
     }
 }

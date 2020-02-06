@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MVC_Blog.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace MVC_Blog.Entities
         {
 
         }
-        public DbSet<News> News { get; set; }
+        public DbSet<NewsViewModel> News { get; set; }
 
     }
 }

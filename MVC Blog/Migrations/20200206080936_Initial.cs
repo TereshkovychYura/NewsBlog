@@ -8,7 +8,7 @@ namespace MVC_Blog.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "tblNews",
+                name: "News",
                 columns: table => new
                 {
                     id = table.Column<int>(nullable: false)
@@ -21,14 +21,14 @@ namespace MVC_Blog.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_tblNews", x => x.id);
+                    table.PrimaryKey("PK_News", x => x.id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "tblNews");
+                name: "News");
         }
     }
 }

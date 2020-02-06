@@ -8,6 +8,11 @@ namespace MVC_Blog.Models
 {
     public class NewsViewModel
     {
-        public IEnumerable<News> allNews { get; set; }
+        public int id { get; set; }
+        public string title { get; set; }
+        public string prew { get; set; }
+        public string fulltext { get; set; }
+        public string img { get; set; }
+        public string author { get; set; }
     }
 }

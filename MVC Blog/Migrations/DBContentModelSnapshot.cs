@@ -18,7 +18,7 @@ namespace MVC_Blog.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("MVC_Blog.Entities.News", b =>
+            modelBuilder.Entity("MVC_Blog.Models.NewsViewModel", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -36,7 +36,7 @@ namespace MVC_Blog.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("tblNews");
+                    b.ToTable("News");
                 });
 #pragma warning restore 612, 618
         }
