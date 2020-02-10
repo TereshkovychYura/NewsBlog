@@ -8,13 +8,13 @@ namespace MVC_Blog.Entities
 {
     public class DBObjects
     {
-        public static void Initial(DBContent content)
+        public static void Initial(DBContext content)
         {
             #region News
             if (!content.News.Any())
             {
                 content.AddRange(
-                   new NewsViewModel
+                   new BlogModel
                    {
                        title = "Man pretends to have coronavirus mid-flight, forcing plane to turn around - The Independent",
                        prew = "Passenger charged with ‘mischief’",
@@ -24,7 +24,7 @@ namespace MVC_Blog.Entities
                        img = "/img/first_news_image.jpg",
                        author = "Helen Coffey"
                    },
-                   new NewsViewModel
+                   new BlogModel
                    {
                        title = "What next for Edinburgh Ikea as chain announce first UK store closure? - Edinburgh News",
                        prew = "The Swedish giants have announced their first ever UK store closure",
@@ -34,7 +34,7 @@ namespace MVC_Blog.Entities
                        img = "/img/second_news_image.jpg",
                        author = "Joe Cawthorn"
                    },
-                   new NewsViewModel
+                   new BlogModel
                    {
                        title = "Grieving mother faces shock £24,000 John Lewis card bill - The Guardian",
                        prew = "She had just lost her long-term partner when the bill landed for a card with £3,000 limit",

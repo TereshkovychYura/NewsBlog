@@ -1,5 +1,5 @@
 ﻿<h1 class="text-center">Blog</h1>
-@model List<NewsViewModel>
+@model List<BlogModel>
 
 @{
     foreach (var item in Model)
@@ -11,7 +11,9 @@
                 <p>
                     @item.prew
                 </p>
-                <p><a class="btn btn-default" asp-controller="Blog" asp-action="Post" asp-route-id="@item.id">View details »</a></p>
+                <a class="btn btn-default" asp-controller="Blog" asp-action="Post" asp-route-id="@item.id">View details »</a>
+                <a class="btn btn-warning" asp-controller="Blog" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+                <a class="btn btn-danger" asp-controller="Blog" asp-action="Post" asp-route-id="@item.id">Delete</a>0
             </article>
         </div>
     }

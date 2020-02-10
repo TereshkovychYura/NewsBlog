@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MVC_Blog.Migrations
 {
-    [DbContext(typeof(DBContent))]
+    [DbContext(typeof(DBContext))]
     partial class DBContentModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -24,15 +24,21 @@ namespace MVC_Blog.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("author");
+                    b.Property<string>("author")
+                        .IsRequired()
+                        .HasMaxLength(30);
 
-                    b.Property<string>("fulltext");
+                    b.Property<string>("fulltext")
+                        .IsRequired();
 
                     b.Property<string>("img");
 
-                    b.Property<string>("prew");
+                    b.Property<string>("prew")
+                        .IsRequired();
 
-                    b.Property<string>("title");
+                    b.Property<string>("title")
+                        .IsRequired()
+                        .HasMaxLength(100);
 
                     b.HasKey("id");
 

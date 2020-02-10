@@ -4,40 +4,36 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MVC_Blog.Entities;
+using MVC_Blog.Main.Interfaces;
 using MVC_Blog.Models;
 
 namespace MVC_Blog.Controllers
 {
     public class BlogController : Controller
     {
-        DBContent content;
-        public BlogController(DBContent _content)
+        private readonly INewsRepository _newsRepository;
+        public BlogController(INewsRepository newsRepository)
         {
-            content = _content;
+            _newsRepository = newsRepository;
         }
 
         [Route("Blog/Post/{id}")]
         public IActionResult Post( int id)
         {
-            ViewBag.Title = "Post";
-            var query = content.News.AsQueryable();
-
-            var blogs = query.Where(post=>post.id== id).Select(p => new NewsViewModel
-            {
-                id = p.id,
-                title = p.title,
-                author = p.author,
-                fulltext = p.fulltext,
-                img = p.img,
-                prew = p.prew
-            }).SingleOrDefault();
-            return View(blogs);
+            var post = _newsRepository.GetPostById(id);
+            return View(post);
         }
 
         public IActionResult Blog()
         {
-            List<NewsViewModel> posts = content.News.ToList();
+            var posts = _newsRepository.GetAllNews().ToList();
             return View(posts);
+        }
+
+        [HttpPost]
+        public ViewResult Edit()
+        {
+            return View();
         }
     }
 }

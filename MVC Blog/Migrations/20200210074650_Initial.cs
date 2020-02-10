@@ -13,11 +13,11 @@ namespace MVC_Blog.Migrations
                 {
                     id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    title = table.Column<string>(nullable: true),
-                    prew = table.Column<string>(nullable: true),
-                    fulltext = table.Column<string>(nullable: true),
-                    img = table.Column<string>(nullable: true),
-                    author = table.Column<string>(nullable: true)
+                    author = table.Column<string>(maxLength: 30, nullable: false),
+                    title = table.Column<string>(maxLength: 100, nullable: false),
+                    prew = table.Column<string>(nullable: false),
+                    fulltext = table.Column<string>(nullable: false),
+                    img = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

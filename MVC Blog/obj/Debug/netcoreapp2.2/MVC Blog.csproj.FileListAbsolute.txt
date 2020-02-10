@@ -31,3 +31,5 @@ C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Vie
 C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Blog.g.cshtml.cs
 C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\HowItWorks.g.cshtml.cs
 C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Post.g.cshtml.cs
+C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Admin.g.cshtml.cs
+C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\CreatePost.g.cshtml.cs

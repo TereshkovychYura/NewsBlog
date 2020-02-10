@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace MVC_Blog.Entities
 {
-    public class DBContent : DbContext
+    public class DBContext : DbContext
     {
-        public DBContent(DbContextOptions<DBContent> options) : base(options)
+        public DBContext(DbContextOptions<DBContext> options) : base(options)
         {
 
         }
-        public DbSet<NewsViewModel> News { get; set; }
+        public DbSet<BlogModel> News { get; set; }
 
     }
 }

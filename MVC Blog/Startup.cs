@@ -28,8 +28,8 @@ namespace MVC_Blog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DBContent>(options => options.UseSqlServer(_dbConf.GetConnectionString("DefaultConnection")));
-            services.AddTransient<IAllNews, NewsRepository>();
+            services.AddDbContext<DBContext>(options => options.UseSqlServer(_dbConf.GetConnectionString("DefaultConnection")));
+            services.AddTransient<INewsRepository, NewsRepository>();
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -67,7 +67,7 @@ namespace MVC_Blog
 
             using (var scope = app.ApplicationServices.CreateScope())
             {
-                DBContent content = scope.ServiceProvider.GetRequiredService<DBContent>();
+                DBContext content = scope.ServiceProvider.GetRequiredService<DBContext>();
                 DBObjects.Initial(content);
             }
         }
