@@ -6,11 +6,18 @@
 <div class="container post-block">
     <article>
         <h2 class="text-center">@Model.title</h2>
-        <img class="post-image" src="@Model.img" />
+        @if (Model.img == null)
+        {
+            <img class="blog-image" src="~/img/default_image.jpg" />
+        }
+        else
+        {
+            <img class="post-image" src="~/img/@Model.img" />
+        }
         <p>@Model.fulltext</p>
         <footer>
             Author - @Model.author
         </footer>
-
     </article>
 </div>
+<a class="btn btn-default" asp-controller="Blog" asp-action="Blog">Back to Blog</a>

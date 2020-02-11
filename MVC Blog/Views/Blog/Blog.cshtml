@@ -1,22 +1,32 @@
 ﻿<h1 class="text-center">Blog</h1>
 @model List<BlogModel>
 
-@{
-    foreach (var item in Model)
-    {
-        <div class="col-md-5 blog-section">
-            <article>
-                <h5>@item.title</h5>
-                <img class="blog-image" src="@item.img" />
-                <p>
-                    @item.prew
-                </p>
-                <a class="btn btn-default" asp-controller="Blog" asp-action="Post" asp-route-id="@item.id">View details »</a>
-                <a class="btn btn-warning" asp-controller="Blog" asp-action="Edit" asp-route-id="@item.id">Edit</a>
-                <a class="btn btn-danger" asp-controller="Blog" asp-action="Post" asp-route-id="@item.id">Delete</a>0
-            </article>
-        </div>
+<div class="row">
+    @{
+        foreach (var item in Model)
+        {
+            
+            <div class="col-md-5 blog-section">
+                <article>
+                    <h5>@item.title</h5>
+                   @if (@item.img == null)
+                    {
+                        <img class="blog-image" src="~/img/default_image.jpg" />
+                    }
+                    else{
+                        <img class="blog-image" src="~/img/@item.img" />
+                    }
+
+                    <p>
+                        @item.prew
+                    </p>
+                    <a class="btn btn-default" asp-controller="Blog" asp-action="Post" asp-route-id="@item.id">View details »</a>
+                    <a class="btn btn-warning" asp-controller="Blog" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+                    <a class="btn btn-danger" asp-controller="Blog" asp-action="Post" asp-route-id="@item.id">Delete</a>
+                </article>
+            </div>
+        }
     }
-}
+</div>
 
 

@@ -21,7 +21,7 @@ namespace MVC_Blog.Entities
                        fulltext = "A man onboard a flight falsely claimed he had coronavirus, forcing the plane to turn around." +
                        "The WestJet service had been en route to Montego Bay, Jamaica, from Toronto, Canada, " +
                        "when the 29-year-old Canadian national announced he had the deadly virus, which …",
-                       img = "/img/first_news_image.jpg",
+                       img = "first_news_image.jpg",
                        author = "Helen Coffey"
                    },
                    new BlogModel
@@ -31,7 +31,7 @@ namespace MVC_Blog.Entities
                        fulltext = "Ikea says it has no plans to close its store in Edinburgh, following " +
                        "the Swedish furniture giants decision to shut an outlet in Coventry city centre." +
                        "In what will be the chains first closure of a big UK branch, the shop in the West Midlands will cease tradin …",
-                       img = "/img/second_news_image.jpg",
+                       img = "second_news_image.jpg",
                        author = "Joe Cawthorn"
                    },
                    new BlogModel
@@ -41,7 +41,7 @@ namespace MVC_Blog.Entities
                        fulltext = "My 80-year-old mother has received an inexplicable credit card bill for nearly £24,000." +
                        " She acquired a John Lewis Partnership card in 2016 with a credit limit of £3,000. In 2017 she set up a direct debit" +
                        " to pay the bills and received monthly statements to sho …",
-                       img = "/img/third_news_image.jpg",
+                       img = "third_news_image.jpg",
                        author = "Anna Tims"
                    }
                 );

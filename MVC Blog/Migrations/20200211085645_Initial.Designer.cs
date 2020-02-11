@@ -3,14 +3,16 @@ using MVC_Blog.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MVC_Blog.Migrations
 {
     [DbContext(typeof(DBContext))]
-    partial class DBContentModelSnapshot : ModelSnapshot
+    [Migration("20200211085645_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -18,7 +20,7 @@ namespace MVC_Blog.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("MVC_Blog.Models.NewsViewModel", b =>
+            modelBuilder.Entity("MVC_Blog.Models.BlogModel", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
