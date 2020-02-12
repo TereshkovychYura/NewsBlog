@@ -37,7 +37,9 @@ namespace MVC_Blog.Main.Repositories
 
         public IEnumerable<BlogModel> GetAllNews()
         {
-            return context.News;
+            var list = context.News.ToList();
+            list.Reverse();
+            return list;
         }
 
         public BlogModel GetPostById(int Id)

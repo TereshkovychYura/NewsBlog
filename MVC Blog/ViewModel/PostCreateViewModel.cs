@@ -9,7 +9,6 @@ namespace MVC_Blog.ViewModel
 {
     public class PostCreateViewModel
     {
-        public int id { get; set; }
         [Required]
         [MaxLength(30, ErrorMessage = "Name can't exceed 30 characters.")]
         public string author { get; set; }

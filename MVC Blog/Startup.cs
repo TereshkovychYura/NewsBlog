@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using MVC_Blog.Entities;
 using MVC_Blog.Main.Interfaces;
 using MVC_Blog.Main.Repositories;
@@ -18,9 +19,12 @@ namespace MVC_Blog
     public class Startup
     {
         private IConfigurationRoot _dbConf;
-        public Startup(IHostingEnvironment ENV)
+
+        public Startup(IConfiguration configuration, IHostingEnvironment ENV)
         {
             _dbConf = new ConfigurationBuilder().SetBasePath(ENV.ContentRootPath).AddJsonFile("settings.json").Build();
+
+            Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
@@ -28,8 +32,9 @@ namespace MVC_Blog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<INewsRepository,NewsRepository>();
+
             services.AddDbContext<DBContext>(options => options.UseSqlServer(_dbConf.GetConnectionString("DefaultConnection")));
-            services.AddTransient<INewsRepository, NewsRepository>();
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -37,34 +42,30 @@ namespace MVC_Blog
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+            loggerFactory.AddDebug();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
-
-           
-
+            app.UseStatusCodePagesWithReExecute("/StatusCode/{0}");
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "Getpost",
+                    template: "Blog/Post/{id?}", defaults: new { Controller = "Blog", action = "Post" });
             });
-
             using (var scope = app.ApplicationServices.CreateScope())
             {
                 DBContext content = scope.ServiceProvider.GetRequiredService<DBContext>();
