@@ -36,3 +36,5 @@ C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Vie
 C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Edit.g.cshtml.cs
 C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Delete.g.cshtml.cs
 C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Views\StatusCode\Index.g.cshtml.cs
+C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\frez70\source\repos\MVC Blog\MVC Blog\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs

@@ -23,8 +23,18 @@ using MVC_Blog.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\frez70\source\repos\MVC Blog\MVC Blog\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#line 4 "C:\Users\frez70\source\repos\MVC Blog\MVC Blog\Views\_ViewImports.cshtml"
+using MVC_Blog.ViewModel;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"db228f273d4be3711c9f7c5f6828139d644bc770", @"/Views/Admin/Admin.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b45605896f970b14940b194dedf96b662ede0e4d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"27ecc346869a900565b0d5b0659c2a56a45f79ae", @"/Views/_ViewImports.cshtml")]
     public class Views_Admin_Admin : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Admin", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -62,7 +72,7 @@ using MVC_Blog.Models;
             WriteLiteral("\r\n<h1>Admin</h1>\r\n");
             EndContext();
             BeginContext(59, 86, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "db228f273d4be3711c9f7c5f6828139d644bc7704280", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "db228f273d4be3711c9f7c5f6828139d644bc7704575", async() => {
                 BeginContext(130, 11, true);
                 WriteLiteral("Create post");
                 EndContext();

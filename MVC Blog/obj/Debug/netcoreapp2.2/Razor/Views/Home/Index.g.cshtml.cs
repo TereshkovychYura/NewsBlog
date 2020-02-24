@@ -23,8 +23,18 @@ using MVC_Blog.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\frez70\source\repos\MVC Blog\MVC Blog\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#line 4 "C:\Users\frez70\source\repos\MVC Blog\MVC Blog\Views\_ViewImports.cshtml"
+using MVC_Blog.ViewModel;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6425b9e7ac95e24471dce939eeeb96595814d608", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b45605896f970b14940b194dedf96b662ede0e4d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"27ecc346869a900565b0d5b0659c2a56a45f79ae", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

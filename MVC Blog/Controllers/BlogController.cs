@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using MVC_Blog.Entities;
 using MVC_Blog.Main.Interfaces;
 using MVC_Blog.Models;
@@ -16,19 +18,33 @@ namespace MVC_Blog.Controllers
     {
         private readonly INewsRepository _newsRepository;
         private readonly IHostingEnvironment _hostingEnvironment;
-        public BlogController(INewsRepository newsRepository, IHostingEnvironment hostingEnvironment)
+        private readonly ILogger _logger;
+
+        public BlogController(DBContext context, INewsRepository postRepository,
+             IHostingEnvironment hostingEnvironment,
+             ILogger<BlogController> logger)
         {
-            _newsRepository = newsRepository;
+            _newsRepository = postRepository;
             _hostingEnvironment = hostingEnvironment;
+            _logger = logger;
         }
 
         [Route("Blog/Post/{id}")]
+        [AllowAnonymous]
         public IActionResult Post( int id)
         {
+            _logger.LogTrace("Trace Log");
+            _logger.LogDebug("Debug Log");
+            _logger.LogInformation("Information Log");
+            _logger.LogWarning("Warning Log");
+            _logger.LogError("Error Log");
+            _logger.LogCritical("Critical Log");
+
             var post = _newsRepository.GetPostById(id);
             return View(post);
         }
 
+        [AllowAnonymous]
         public IActionResult Blog()
         {
             var posts = _newsRepository.GetAllNews().ToList();
