@@ -41,7 +41,9 @@ namespace MVC_Blog.Migrations
                     LockoutEnd = table.Column<DateTimeOffset>(nullable: true),
                     LockoutEnabled = table.Column<bool>(nullable: false),
                     AccessFailedCount = table.Column<int>(nullable: false),
-                    City = table.Column<string>(nullable: true)
+                    City = table.Column<string>(nullable: true),
+                    Street = table.Column<string>(nullable: true),
+                    Position = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

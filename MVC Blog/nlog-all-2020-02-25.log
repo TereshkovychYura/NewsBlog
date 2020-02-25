@@ -1,0 +1,238 @@
+2020-02-25 10:56:02.3377|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 10:56:02.4658|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 10:56:02.4769|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 10:56:02.4769|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 10:56:02.4769|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 10:56:02.4769|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 10:56:05.6276|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 10:56:05.6276|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 10:56:05.6342|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 10:56:05.6342|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 10:56:05.6342|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 10:56:05.6342|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 10:56:06.5985|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTPQ1OBV5UO", Request id "0HLTPQ1OBV5UO:00000013": An unhandled exception was thrown by the application.
+2020-02-25 10:56:10.1868|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 10:56:10.1868|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 10:56:10.1868|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 10:56:10.1950|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 10:56:10.1950|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 10:56:10.1950|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 10:57:28.5723|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 10:57:28.6210|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 10:57:28.6210|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 10:57:28.6210|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 10:57:28.6360|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 10:57:28.6360|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 10:57:31.7973|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 10:57:31.7973|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 10:57:31.7973|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 10:57:31.8035|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 10:57:31.8035|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 10:57:31.8035|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 10:57:31.9523|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTPQ2RU4OC7", Request id "0HLTPQ2RU4OC7:00000007": An unhandled exception was thrown by the application.
+2020-02-25 11:21:18.0813|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:21:18.1376|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:21:18.1540|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:21:18.1540|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:21:18.1540|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:21:18.1540|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:21:20.4418|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:21:20.4418|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:21:20.4418|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:21:20.4418|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:21:20.4499|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:21:20.4499|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:21:20.6447|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTPQG7J3QFM", Request id "0HLTPQG7J3QFM:00000004": An unhandled exception was thrown by the application.
+2020-02-25 11:21:23.3142|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:21:23.3142|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:21:23.3142|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:21:23.3243|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:21:23.3243|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:21:23.3243|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:21:31.1362|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:21:31.1362|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:21:31.1362|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:21:31.1362|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:21:31.1362|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:21:31.1362|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:21:31.2258|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTPQG7J3QFM", Request id "0HLTPQG7J3QFM:00000006": An unhandled exception was thrown by the application.
+2020-02-25 11:21:32.9399|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:21:32.9399|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:21:32.9399|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:21:32.9499|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:21:32.9499|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:21:32.9499|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:21:41.4719|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:21:41.4719|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:21:41.4719|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:21:41.4815|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:21:41.4815|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:21:41.4815|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:21:44.0222|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:21:44.0222|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:21:44.0270|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:21:44.0270|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:21:44.0270|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:21:44.0270|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:21:44.1041|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTPQG7J3QFM", Request id "0HLTPQG7J3QFM:0000000B": An unhandled exception was thrown by the application.
+2020-02-25 11:21:45.7766|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:21:45.7766|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:21:45.7766|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:21:45.7766|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:21:45.7766|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:21:45.7766|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:26:49.7345|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:26:49.7950|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:26:49.8036|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:26:49.8036|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:26:49.8036|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:26:49.8189|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:26:55.1350|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:26:55.1350|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:26:55.1350|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:26:55.1350|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:26:55.1350|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:26:55.1350|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:26:57.1827|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:26:57.1827|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:26:57.1827|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:26:57.1827|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:26:57.1827|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:26:57.1942|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:26:57.3803|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTPQJB9RHKA", Request id "0HLTPQJB9RHKA:00000006": An unhandled exception was thrown by the application.
+2020-02-25 11:27:08.5127|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:27:08.5127|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:27:08.5127|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:27:08.5127|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:27:08.5242|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:27:08.5242|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:27:08.5957|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTPQJB9RHKA", Request id "0HLTPQJB9RHKA:00000007": An unhandled exception was thrown by the application.
+2020-02-25 11:27:13.4227|TRACE|MVC_Blog.Controllers.BlogController|Trace Log
+2020-02-25 11:27:13.4227|DEBUG|MVC_Blog.Controllers.BlogController|Debug Log
+2020-02-25 11:27:13.4290|INFO|MVC_Blog.Controllers.BlogController|Information Log
+2020-02-25 11:27:13.4290|WARN|MVC_Blog.Controllers.BlogController|Warning Log
+2020-02-25 11:27:13.4290|ERROR|MVC_Blog.Controllers.BlogController|Error Log
+2020-02-25 11:27:13.4290|FATAL|MVC_Blog.Controllers.BlogController|Critical Log
+2020-02-25 11:51:26.0851|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-25 11:51:42.2704|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-25 11:51:54.5569|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1,686ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [BlogDB];
+2020-02-25 11:51:55.3600|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (800ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [BlogDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2020-02-25 11:51:55.7145|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (253ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2020-02-25 11:51:55.7426|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2020-02-25 11:51:55.7426|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2020-02-25 11:51:55.7501|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20200225095126_Initial'.
+2020-02-25 11:51:55.9675|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (101ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2020-02-25 11:51:56.0188|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (50ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    [City] nvarchar(max) NULL,
+    [Street] nvarchar(max) NULL,
+    [Position] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2020-02-25 11:52:00.2358|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [News] (
+    [id] int NOT NULL IDENTITY,
+    [author] nvarchar(30) NOT NULL,
+    [title] nvarchar(100) NOT NULL,
+    [prew] nvarchar(max) NOT NULL,
+    [fulltext] nvarchar(max) NOT NULL,
+    [img] nvarchar(max) NULL,
+    CONSTRAINT [PK_News] PRIMARY KEY ([id])
+);
+2020-02-25 11:52:00.3325|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (96ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2020-02-25 11:52:00.3325|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2020-02-25 11:52:00.5647|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (163ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2020-02-25 11:52:00.6472|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (82ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2020-02-25 11:52:00.7417|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (94ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2020-02-25 11:52:00.8895|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (147ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+2020-02-25 11:52:00.9379|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+2020-02-25 11:52:00.9379|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+2020-02-25 11:52:00.9379|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+2020-02-25 11:52:00.9379|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+2020-02-25 11:52:00.9379|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+2020-02-25 11:52:00.9892|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+2020-02-25 11:52:01.0540|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20200225095126_Initial', N'2.2.6-servicing-10079');

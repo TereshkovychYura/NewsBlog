@@ -39,7 +39,9 @@ namespace MVC_Blog.Controllers
                 {
                     UserName = model.Email,
                     Email = model.Email,
-                    City = model.City
+                    City = model.City,
+                    Street = model.Street,
+                    Position= model.Position
                 };
                 var result = await userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
@@ -95,6 +97,13 @@ namespace MVC_Blog.Controllers
             }
 
             return View(model);
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
     }
 }

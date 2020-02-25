@@ -52,7 +52,11 @@ namespace MVC_Blog.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed");
 
+                    b.Property<string>("Position");
+
                     b.Property<string>("SecurityStamp");
+
+                    b.Property<string>("Street");
 
                     b.Property<bool>("TwoFactorEnabled");
 

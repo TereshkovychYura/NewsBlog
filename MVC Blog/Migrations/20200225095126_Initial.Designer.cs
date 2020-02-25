@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVC_Blog.Migrations
 {
     [DbContext(typeof(DBContext))]
-    [Migration("20200224092517_Initial")]
+    [Migration("20200225095126_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,7 +54,11 @@ namespace MVC_Blog.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed");
 
+                    b.Property<string>("Position");
+
                     b.Property<string>("SecurityStamp");
+
+                    b.Property<string>("Street");
 
                     b.Property<bool>("TwoFactorEnabled");
 
